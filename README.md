@@ -21,8 +21,9 @@
             2. Median  ( The center Value )
             3. Mode    ( Most Accured Value ) 
        
-       For Categorical Data Missing values treatment we will use the 'Mode' value of that column 
-       For the Measured or numarical columns we will use the 'Mean' of the column  
+       For Categorical Data Missing values treatment we will use 'Mode'
+       
+       For the Measured or numarical columns we will use 'Mean'  
        
     2) Encoding the Categorical Variables etc
 
