@@ -8,7 +8,7 @@
     5) HDFS
 2. Manipulation and transformation of data in the DataFrame using Pandas series. 
 
-3. Data PreProcessing 
+3. Data PreProcessing
 
     1) Null Value Handling or Missing Value Treatment (Measured Variables / Categorical Variables) 
        This step is pefromed based on business needs , If the data has less have 25% of data with missing values then we will pefrom
@@ -23,7 +23,9 @@
        
        For Categorical Data Missing values treatment we will use 'Mode'
        
-       For the Measured or numarical columns we will use 'Mean'  
+       For the Measured or numarical columns we will use 'Mean'  or 'Median' 
+       
+       When we have an outlier in the data then 'Median' and if there is no outlier then Mean 
        
     2) Encoding the Categorical Variables etc
 
