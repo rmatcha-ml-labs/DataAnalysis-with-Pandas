@@ -27,7 +27,17 @@
        
        When we have an outlier in the data then 'Median' and if there is no outlier then 'Mean'
        
-       There are multiple ways to identify the outliers ( Which i will cover it as a separate topic )  
+       There are multiple ways to identify the outliers ( Which i will cover it as a separate topic but for now we will look at one approch )
+       
+            1. Box Plot
+            2. Stadard Deviation 
+            3. DBScan Clustering
+            4. isolation forest
+            5.Robust Random Cut Forest
+   
+   BoxPlot is the most widely used methode. 
+   
+   Box plots are a graphical depiction of numerical data through their quantiles. It is a very simple but effective way to visualize outliers. Think about the lower and upper whiskers as the boundaries of the data distribution. Any data points that show above or below the whiskers, can be considered outliers or anomalous
        
     2) Encoding the Categorical Variables 
        
