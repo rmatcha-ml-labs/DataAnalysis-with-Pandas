@@ -15,10 +15,12 @@
        the missing value treatment operation , If the missing values are more than 25% it toally depends on business what to do with the
        Dataset, They might ask to ignore the missign data rows from the data set  or fill the data if it is around 25%.
        
-       For to handle the missing value treatment we need to understand the following 
-             1. Mean 
-             2. Median 
-             3. Mode
+       For to handle the missing value treatment we need to understand the following
+       
+            1. Mean    ( Average )
+            2. Median  ( The center Value )
+            3. Mode    ( Most Accured Value ) 
+       
        For Categorical Data Missing values treatment we will use the 'Mode' value of that column 
        For the Measured or numarical columns we will use the 'Mean' of the column  
        
