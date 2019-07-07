@@ -25,9 +25,15 @@
        
        For the Measured or numarical columns we will use 'Mean'  or 'Median' 
        
-       When we have an outlier in the data then 'Median' and if there is no outlier then Mean 
+       When we have an outlier in the data then 'Median' and if there is no outlier then 'Mean'
        
-    2) Encoding the Categorical Variables etc
+       There are multiple ways to identify the outliers ( Which i will cover it as a separate topic )  
+       
+    2) Encoding the Categorical Variables 
+       
+       In General Categorical variables are Objet datatype ( String's) data , Whcih occupy more space in the memory while reading a huge 
+       dataset into a dataframe  ,By encoding the Categorical variables to int will reduce the size of the datrame and wihch will              improve performance of the ML Model calculations on the data. So this step is very important and a thumb rule to encode the data        before we go with any model build. 
+       
 
 4. Exploratory Data Analyis (EDA) using Panadas
 
