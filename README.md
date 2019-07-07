@@ -12,4 +12,4 @@
 
 4. Exploratory Data Analyis (EDA) using Panadas
 
-6. Data Visuvaliztion using matplotlib
+6. Data Visualization using matplotlib
